@@ -51,7 +51,6 @@
 */
 	//$stmt->execute(array("fff1",12.34,1000,"fine",125));
 	//$stmt->execute(array("fff2",123.4,2000,"fine2",126));
-	//$stmt->execute(array("fff3",1234,3000,"fine3",127));
 	foreach($pdo->query($sql) as $row){
 		echo $row['id']."\t";
 		echo $row['name']."\t";
