@@ -50,7 +50,7 @@
 	$stmt->execute(array(":price"=>77,":name"=>kkk3,":num"=>3,":desn"=>"aaa3",":id"=>127));
 */
 	//$stmt->execute(array("fff1",12.34,1000,"fine",125));
-	$stmt->execute(array("fff2",123.4,2000,"fine2",123));
+	//$stmt->execute(array("fff2",123.4,2000,"fine2",123));
 	foreach($pdo->query($sql) as $row){
 		echo $row['id']."\t";
 		echo $row['name']."\t";
