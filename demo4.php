@@ -10,7 +10,7 @@
 	echo "连接数据库成功！<br>";
 	try{
 		$pdo->beginTransaction();
-		$price=500;
+		$price=5000;
 		$out='zhangsan';
 		$in='lisi';
 		$sql="update account set money=money-($price) where name='zhangsan'";
