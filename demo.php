@@ -69,12 +69,6 @@
 		echo $row['description']."\t";
 		echo $row['pid']."\n";
 	}
-	foreach($pdo->query($sql) as $row){
-		echo $row['id']."\t";
-		echo $row['name']."\t";
-		echo $row['description']."\t";
-		echo $row['pid']."\n";
-	}
 
 	}catch(PDOException $e){
 		echo $e->getMessage();
