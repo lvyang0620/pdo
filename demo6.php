@@ -19,7 +19,7 @@
 		
 		$name="wwww1";
 		$price=34.51;
-		$num=200;
+		$num=100;
 		$desn="hello world1";
 
 		if($stmt->execute()){
